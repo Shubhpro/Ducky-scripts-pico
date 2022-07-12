@@ -21,4 +21,10 @@ You can now put in your rubber ducky payloads.
 
 Please do not use these scipts for any malicious purposes, this is only intended for use on your own property.
 
+### Also note:
+
+This is not my code, I put this all here so people have access to everything in one place, I take no credit for any of these files.
+
+Go check out the original the main source: https://github.com/dbisu/pico-ducky
+
 Thank you
