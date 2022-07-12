@@ -19,6 +19,6 @@ You can now put in your rubber ducky payloads.
 
 ### Disclaimer:
 
-Please do not use these scipts for any bad intentions, this is only intended for use on your own property.
+Please do not use these scipts for any malicious purposes, this is only intended for use on your own property.
 
 Thank you
