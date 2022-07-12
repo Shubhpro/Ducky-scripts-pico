@@ -23,8 +23,8 @@ Please do not use these scipts for any malicious purposes, this is only intended
 
 ### Also note:
 
-This is not my code, I put this all here so people have access to everything in one place, I take no credit for any of these files.
+This is not my code, I put this all here so people have access to all the setup files and payloads in one place without having to download from a bunch of diferent sites/pages, I take no credit for any of these files.
 
-Go check out the original the main source: https://github.com/dbisu/pico-ducky
+Go check out the original source: https://github.com/dbisu/pico-ducky
 
 Thank you
